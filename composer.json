@@ -1,0 +1,37 @@
+{
+    "name": "alexcode/laravel-sumup",
+    "description": "Laravel 5.6 integration for the Sumup PHP SDK.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Couturon",
+            "email": "infocontact.alex@gmail.com"
+        }
+    ],
+    "require": {
+        "alexcode/sumup-php": "@dev"
+    },
+    "require-dev": {
+    "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alexcode\\Sumup\\Laravel\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev": "master"
+        },
+        "laravel": {
+            "providers": [
+                "Alexcode\\Sumup\\Laravel\\SumupServiceProvider"
+            ],
+            "aliases": {
+                "Sumup": "Alexcode\\Sumup\\Laravel\\Facades\\Sumup"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
