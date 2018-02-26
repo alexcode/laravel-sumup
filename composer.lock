@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7c8334a004933de917a58b63bcd3df00",
+    "content-hash": "a66c07b16e5f579d7cd6295262f6bdd9",
     "packages": [
         {
             "name": "alexcode/sumup-php",
-            "version": "dev-master",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexcode/sumup-php.git",
-                "reference": "4f7ebabad54bf3a7b5f77fff7f3a045acc65deac"
+                "reference": "451b1129329c8952f459042c4913a96e83da6181"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexcode/sumup-php/zipball/4f7ebabad54bf3a7b5f77fff7f3a045acc65deac",
-                "reference": "4f7ebabad54bf3a7b5f77fff7f3a045acc65deac",
+                "url": "https://api.github.com/repos/alexcode/sumup-php/zipball/451b1129329c8952f459042c4913a96e83da6181",
+                "reference": "451b1129329c8952f459042c4913a96e83da6181",
                 "shasum": ""
             },
             "require": {
@@ -50,7 +50,7 @@
                 "rest",
                 "sumup"
             ],
-            "time": "2018-02-22T20:44:52+00:00"
+            "time": "2018-02-26T21:42:59+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1744,9 +1744,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "alexcode/sumup-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
