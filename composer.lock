@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a66c07b16e5f579d7cd6295262f6bdd9",
+    "content-hash": "e7cca6f83d06477b8a842f02c4b7cd5f",
     "packages": [
         {
             "name": "alexcode/sumup-php",
