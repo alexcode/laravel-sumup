@@ -9,7 +9,7 @@ namespace Alexcode\Sumup\Laravel;
 use Sumup\Sumup;
 use Illuminate\Support\ServiceProvider;
 
-class SumupServiceProvider extends ServiceProvider
+class LaravelServiceProvider extends ServiceProvider
 {
 
     public function boot()

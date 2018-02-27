@@ -26,7 +26,7 @@
         },
         "laravel": {
             "providers": [
-                "Alexcode\\Sumup\\Laravel\\SumupServiceProvider"
+                "Alexcode\\Sumup\\Laravel\\LaravelServiceProvider"
             ],
             "aliases": {
                 "Sumup": "Alexcode\\Sumup\\Laravel\\Facades\\Sumup"
