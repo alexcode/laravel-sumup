@@ -52,7 +52,7 @@ class LaravelServiceProvider extends ServiceProvider
 
             $sumup = new Sumup($client, $secret);
             if ($version) {
-                $sumup->setVersion($version);
+                $sumup->setApiVersion($version);
             }
             if ($redirect) {
                 $sumup->setRedirectUri($redirect);
